@@ -14,5 +14,5 @@ A python script that analys a database log.
  - Make sure you have `newsdata.sql` sql file type `ls` to view the files in your directory.
  - Then type `psql -d news -f newsdata.sql`
  - Running this command will connect to your installed database server and execute the SQL commands in the downloaded file, creating tables and populating them with data.
- - Run the `python log.py` to run the script, it'll print the result in the shell and also it'll export the result in `output.txt`.
+ - Run the `python log.py` to run the script,it'll export the result in `output.txt`.
 
